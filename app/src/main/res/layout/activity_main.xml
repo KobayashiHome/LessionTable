@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaaaaa"
+    android:orientation="vertical"
+    tools:context="com.skylinelin.lessiontable.MainActivity">
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="课程表"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:layout_span="8"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_span="4"
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="上午"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_span="3"
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="下午"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="周一"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="语文"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="数学"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="英语"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="历史"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="政治"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="化学"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="物理"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="周二"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="语文"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="数学"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="英语"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="历史"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="政治"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="化学"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="物理"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="周三"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="语文"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="数学"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="英语"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="历史"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="政治"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="化学"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="物理"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="周四"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="语文"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="数学"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="英语"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="历史"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="政治"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="化学"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="物理"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="周五"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="语文"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="数学"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="英语"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="历史"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="政治"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="化学"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_height="28dp"
+                android:layout_margin="8dp"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:text="物理"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
